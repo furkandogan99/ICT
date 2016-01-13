@@ -1,0 +1,54 @@
+* {margin: 0; padding: 0;}
+@font-face {
+    font-family: 'orange_juiceregular';
+    src: url('orange_juice_2.0-webfont.eot');
+    src: url('orange_juice_2.0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('orange_juice_2.0-webfont.woff2') format('woff2'),
+         url('orange_juice_2.0-webfont.woff') format('woff'),
+         url('orange_juice_2.0-webfont.ttf') format('truetype'),
+         url('orange_juice_2.0-webfont.svg#orange_juiceregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body.goedemorgen{
+	background-image: url(morning.png);
+	background-repeat: no-repeat;
+
+}
+
+body.goedemiddag{
+	background-image: url(afternoon.png);
+	background-repeat: no-repeat;
+
+}
+
+body.goedeavond{
+	background-image: url(evening.png);
+	background-repeat: no-repeat;
+}
+
+body.goedenacht{
+	background-image: url(night.png);
+	background-repeat: no-repeat;
+}
+
+div{
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'orange_juiceregular';
+	font-size: 80px;
+	position: absolute;
+	top: 50%;
+	margin-top: -109px;
+	left: 50%;
+	margin-left: -275px;
+	text-align: center;
+
+
+}
+
